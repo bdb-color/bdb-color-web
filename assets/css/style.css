@@ -1,0 +1,71 @@
+/* style.css - styling dasar */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+input, select {
+    padding: 6px;
+    margin: 4px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Batasi tinggi gambar produk dan atur rasio tampilannya */
+.card-img-top {
+  height: 160px;
+  object-fit: contain;
+}
+
+/* Biar isi card lebih ringkas dan kompak */
+.card-body {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  margin-bottom: 0.4rem;
+}
